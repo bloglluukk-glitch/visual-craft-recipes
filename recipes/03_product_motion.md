@@ -1,5 +1,7 @@
 # 03 — 제품 움직임과 카메라 움직임 분리
 
+**한국어** | [English](03_product_motion.en.md)
+
 상태: **experimental / 실제 영상 생성·프레임 검수 미실행**.
 
 ## 해결할 문제

@@ -1,5 +1,7 @@
 # 레시피 제목
 
+**한국어** | [English](recipe_template.en.md)
+
 상태: experimental / tested-on-model / observed-in-production 중 실제 근거에 맞게 선택.
 
 ## 해결할 문제

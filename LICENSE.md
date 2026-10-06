@@ -1,5 +1,7 @@
 # Creative Commons Attribution 4.0 International
 
+**한국어** | [English](LICENSE.en.md)
+
 SPDX-License-Identifier: CC-BY-4.0
 
 Copyright (c) 2026 bloglluukk-glitch and contributors.

@@ -1,5 +1,5 @@
 {
-  "version": "0.2.1",
+  "version": "0.3.0",
   "status": "public_release",
   "date": "2026-10-06",
   "recipe_count": 3,
@@ -44,19 +44,39 @@
       "sha256": "5cc8b163a0c31118bad55b6abc2eecd0d8a50e05b54341f388bb2583efccbee3"
     },
     {
+      "path": "assets/README.en.md",
+      "bytes": 2235,
+      "sha256": "0a1c23eecb66f3e5a759c84e2c647c291b71f26ae0e83582fde5852abfe5255a"
+    },
+    {
       "path": "assets/README.md",
-      "bytes": 2262,
-      "sha256": "19b9661e222ae82c22d9969f4ad44c847406647a78a94d6969342610190bb625"
+      "bytes": 2305,
+      "sha256": "aef85bf5a38ef5e58433fafd4ad696f95be435cb8d4f5402f814c47b8c1c4368"
+    },
+    {
+      "path": "CHANGELOG.en.md",
+      "bytes": 1941,
+      "sha256": "41f66a63e7b67ff4e1510700dafa2b652b9654d6121fd8a0fdd6ed5fa319888b"
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1213,
-      "sha256": "bb92178be2a3119429088c5ae08465146c2acacaec9638aa63179bae3846676c"
+      "bytes": 1767,
+      "sha256": "de89d1bc11e40758824b61a4bf1926bc3837ac0d3b5dbe3432d16d296917281e"
+    },
+    {
+      "path": "CONTRIBUTING.en.md",
+      "bytes": 1671,
+      "sha256": "6b0a285500f1497a8e88adde4d207e184376348f74232d8a9a1f16fc7ba32f4f"
     },
     {
       "path": "CONTRIBUTING.md",
-      "bytes": 1691,
-      "sha256": "990fcb788d2a0de15996377add204b14a28b42779098f04a48a300bb69de4abd"
+      "bytes": 1740,
+      "sha256": "c6872c567fc718ff268bca442966082bbbd010de7fa0d710db6ae470c2b0b285"
+    },
+    {
+      "path": "examples/01_clear_glass.en.json",
+      "bytes": 1150,
+      "sha256": "1697e4304b763a2ce7b1ad452d4ee15b130594ac08d0559a8f47e0e596088b83"
     },
     {
       "path": "examples/01_clear_glass.json",
@@ -64,9 +84,19 @@
       "sha256": "a27023172ae805e62481e80af967121f4c2cc24a1b29e006924f039fa9a7e968"
     },
     {
+      "path": "examples/02_metal_highlights.en.json",
+      "bytes": 1072,
+      "sha256": "f2bbabcc250a6be7586ac8e8dce39f58254e932d067e68aed044dd700ca4bad9"
+    },
+    {
       "path": "examples/02_metal_highlights.json",
       "bytes": 1072,
       "sha256": "5885983bb8b2f97dd0140496cb43ae8b2705c3c177d5e122304f2483721d217d"
+    },
+    {
+      "path": "examples/03_product_motion.en.json",
+      "bytes": 1475,
+      "sha256": "b9f9626770288d6b9e0a3b9d5d0d6a8a6d1d3f9e4c926b30b2270d0ed305780f"
     },
     {
       "path": "examples/03_product_motion.json",
@@ -74,9 +104,14 @@
       "sha256": "3dc61ea5dfb47fde9c492f21dd60509bde2fc3cde24bb22d6a6cf847aeb0f5a9"
     },
     {
+      "path": "LICENSE.en.md",
+      "bytes": 1809,
+      "sha256": "ca2466d67bd19f166909856c60200654e5b060cc1809029e49139ae2957e44f9"
+    },
+    {
       "path": "LICENSE.md",
-      "bytes": 1860,
-      "sha256": "6ca1333530184783ccb8b08176e1a90d2b985e420986960179a625597b3c114b"
+      "bytes": 1904,
+      "sha256": "f9b1b7f7d404345cc5f8cd2dfc9dd7a4413d1ca6b093fbc1b897e83a0ee1696f"
     },
     {
       "path": "prompts/01_glass_baseline.txt",
@@ -144,29 +179,54 @@
       "sha256": "5cb6de194f8e7236f8ca949dcb836e36d1c1542ed163bf3bf11268a37e0e1d55"
     },
     {
+      "path": "README.en.md",
+      "bytes": 5053,
+      "sha256": "a1f22b1b6f75ced650e2e21dd3a4fc685783bfb5e25da84ba5f6d6b5ac98cfb3"
+    },
+    {
       "path": "README.md",
-      "bytes": 4879,
-      "sha256": "69cb37613c45f3cb3668a7b0ade2bf9b780311a2cd69aec80493dedd7f37fb57"
+      "bytes": 4941,
+      "sha256": "329397a6cdb9ac4c59c95c1cd7717e4bbe1c5dfe5fbe5ba608ad01b827761f31"
+    },
+    {
+      "path": "recipes/01_clear_glass.en.md",
+      "bytes": 5046,
+      "sha256": "49036a086d677cc6d5005cd0cb497c426e3590841403cf07808e21afa276914b"
     },
     {
       "path": "recipes/01_clear_glass.md",
-      "bytes": 4905,
-      "sha256": "0f649581694a125276048919dd667db8c875a61d3dc767da79c66c66a2a7360f"
+      "bytes": 4956,
+      "sha256": "3ce0d690615dcf38d38cdd31971953e3c8a51becd0e156b48606e1f81eacb7f5"
+    },
+    {
+      "path": "recipes/02_metal_highlights.en.md",
+      "bytes": 4761,
+      "sha256": "ca6a7bbd2fb282c320c809ab16d0620ef0df414aba2d19c7c85c9083cfcf60fd"
     },
     {
       "path": "recipes/02_metal_highlights.md",
-      "bytes": 4463,
-      "sha256": "97a948daefacc96917bd7e19500b6b383de06dd500e154f2f0ca72bfd299b561"
+      "bytes": 4519,
+      "sha256": "6d0becc25dbaaf138548438fa575914c3ae90571cb44d70e034b08b6a46c3fee"
+    },
+    {
+      "path": "recipes/03_product_motion.en.md",
+      "bytes": 6021,
+      "sha256": "c9b7c423730bcdb204eafa906d42096ea160a4157f493f233b0c47f0d5e8cfe6"
     },
     {
       "path": "recipes/03_product_motion.md",
-      "bytes": 5773,
-      "sha256": "17ce4f4e73855070996e48c39a314fec679d041e228371337ea61715d93a5a35"
+      "bytes": 5827,
+      "sha256": "86cc769bbe0d60d24d9b6be10f9795ee7bcf9702e4f3266f2572ac4e824b1b7d"
+    },
+    {
+      "path": "SOURCES.en.md",
+      "bytes": 3656,
+      "sha256": "6cdcff6a052fb11468643a6a099bfd5947e3a9cfad3e944967a1dd62f1982fdb"
     },
     {
       "path": "SOURCES.md",
-      "bytes": 3517,
-      "sha256": "6d7a28efeb149e3f94d1f5e440dcc8ce57f040ddd43a396ea78e00cca6454914"
+      "bytes": 3561,
+      "sha256": "6ba8b5015cac76a3b57bd56cb7497c73d5a71e67016d52f73f44fbe503dcd805"
     },
     {
       "path": "templates/experiment_record.json",
@@ -174,13 +234,22 @@
       "sha256": "0d6709960a841b52c339490aa6cdb0bf63ffe1516c3e8ec108d0284f2b466f03"
     },
     {
+      "path": "templates/recipe_template.en.md",
+      "bytes": 1021,
+      "sha256": "ab5fc92256280256350799b2ab5eeddd7ad76c2ea2ac856b5f1a9d805c1dd558"
+    },
+    {
       "path": "templates/recipe_template.md",
-      "bytes": 776,
-      "sha256": "1b6b88012c238858e351b3457d3509929b227619105deb6c6aac9b6fb8c5a892"
+      "bytes": 859,
+      "sha256": "f06720ecf23cdc8a487977f0ffd7f3fedabf640cad2172e0b4f34c88ba1f6778"
     }
   ],
-  "payload_file_count": 34,
-  "total_file_count_including_manifest": 35,
+  "payload_file_count": 47,
+  "total_file_count_including_manifest": 48,
   "self_hash_excluded": true,
-  "repository_url": "https://github.com/bloglluukk-glitch/visual-craft-recipes"
+  "repository_url": "https://github.com/bloglluukk-glitch/visual-craft-recipes",
+  "languages": [
+    "ko",
+    "en"
+  ]
 }

@@ -1,0 +1,40 @@
+{
+  "schema_version": "0.2",
+  "status": "experimental_not_run",
+  "tool": null,
+  "model": null,
+  "model_version": null,
+  "execution_date": null,
+  "seed": null,
+  "seed_supported": null,
+  "reference_strength": null,
+  "output_resolution": null,
+  "note": "Design values are not verified optimal values.",
+  "recipe_id": "VC-01",
+  "input_asset": "../assets/bottle_reference.png",
+  "input_role": "ai_generated_fictional_product_reference",
+  "output_kind": "image",
+  "aspect_ratio": "3:4",
+  "preserve": [
+    "silhouette",
+    "height_width_ratio",
+    "cap_size",
+    "label_position",
+    "two_gray_bars",
+    "one_circular_mark"
+  ],
+  "allow_change": [
+    "lighting",
+    "background"
+  ],
+  "variants": {
+    "baseline": "../prompts/01_glass_baseline.txt",
+    "bright": "../prompts/01_glass_bright.txt",
+    "dark": "../prompts/01_glass_dark.txt"
+  },
+  "comparison_type": "multi_instruction_exploration",
+  "follow_up_single_variable": "edge_reflection_width",
+  "suggested_runs_per_condition_if_no_seed": 3,
+  "actual_runs": 0,
+  "input_generation_record": "../assets/GENERATION_RECORD.json"
+}

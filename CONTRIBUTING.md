@@ -1,5 +1,7 @@
 # 결과와 개선을 공유하는 방법
 
+**한국어** | [English](CONTRIBUTING.en.md)
+
 새 모델에서 성공했거나 실패했을 때, 같은 조건을 따라 할 수 있는 기록을 남겨 주세요. [Issue](https://github.com/bloglluukk-glitch/visual-craft-recipes/issues) 또는 [Pull Request](https://github.com/bloglluukk-glitch/visual-craft-recipes/pulls)로 제안할 수 있습니다.
 
 1. 레시피 번호, 도구·모델·실행일·입력 방식·출력 크기·시드 지원 여부를 적습니다.
