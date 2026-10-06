@@ -1,0 +1,100 @@
+{
+  "schema_version": "0.2",
+  "method": "built-in image_gen.imagegen",
+  "image_generation_calls": 5,
+  "recipe_comparison_runs": 0,
+  "images": [
+    {
+      "file": "bottle_reference.png",
+      "role": "fictional_product_reference",
+      "method": "built-in image_gen.imagegen",
+      "date": "2026-10-06",
+      "model_identifier": "not_exposed_by_tool",
+      "generation_prompt": "../prompts/assets/bottle.txt",
+      "reference_images": [],
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "e145e2ffb97b67e84d4fe36a111248701b69183d5fd5de5a84bf6595257d64f1",
+      "selection_review": "Visually inspected the returned image for subject, layout and labels.",
+      "recipe_comparison_result": false,
+      "actual_photograph": false
+    },
+    {
+      "file": "metal_reference.png",
+      "role": "fictional_product_reference",
+      "method": "built-in image_gen.imagegen",
+      "date": "2026-10-06",
+      "model_identifier": "not_exposed_by_tool",
+      "generation_prompt": "../prompts/assets/metal.txt",
+      "reference_images": [],
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "sha256": "e2d8b32b07dd48692cf36c316171624d936e658e3d864259b8ee5dc0be96b8fc",
+      "selection_review": "Visually inspected the returned image for subject, layout and labels.",
+      "recipe_comparison_result": false,
+      "actual_photograph": false
+    },
+    {
+      "file": "glass_lighting.png",
+      "role": "illustrative_teaching_board",
+      "method": "built-in image_gen.imagegen",
+      "date": "2026-10-06",
+      "model_identifier": "not_exposed_by_tool",
+      "generation_prompt": "../prompts/assets/glass.txt",
+      "reference_images": [
+        "bottle_reference.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "ce01d3b00a2a0a95bf2da58c970c5b4b3e2b76d71f5ed616f59bbcd118a0a57c",
+      "selection_review": "Visually inspected the returned image for subject, layout and labels.",
+      "recipe_comparison_result": false,
+      "actual_photograph": false
+    },
+    {
+      "file": "metal_lighting.png",
+      "role": "illustrative_teaching_board",
+      "method": "built-in image_gen.imagegen",
+      "date": "2026-10-06",
+      "model_identifier": "not_exposed_by_tool",
+      "generation_prompt": "../prompts/assets/metal_board.txt",
+      "reference_images": [
+        "metal_reference.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "cac7aa5b0dab938872f3671b30bead97871cd8c1975c7ec849bbf3689ae18c0a",
+      "selection_review": "Visually inspected the returned image for subject, layout and labels.",
+      "recipe_comparison_result": false,
+      "actual_photograph": false
+    },
+    {
+      "file": "motion_plan.png",
+      "role": "illustrative_teaching_board",
+      "method": "built-in image_gen.imagegen",
+      "date": "2026-10-06",
+      "model_identifier": "not_exposed_by_tool",
+      "generation_prompt": "../prompts/assets/motion.txt",
+      "reference_images": [
+        "metal_reference.png"
+      ],
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "5cc8b163a0c31118bad55b6abc2eecd0d8a50e05b54341f388bb2583efccbee3",
+      "selection_review": "Visually inspected the returned image for subject, layout and labels.",
+      "recipe_comparison_result": false,
+      "actual_photograph": false
+    }
+  ],
+  "note": "Images are AI-generated fictional reference assets and explanatory illustrations. They are not paired baseline/recipe performance measurements or recorded video frames."
+}

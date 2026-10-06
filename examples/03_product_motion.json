@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.2",
+  "status": "experimental_not_run",
+  "tool": null,
+  "model": null,
+  "model_version": null,
+  "execution_date": null,
+  "seed": null,
+  "seed_supported": null,
+  "reference_strength": null,
+  "output_resolution": null,
+  "note": "설계값은 검증된 최적값이 아니다.",
+  "recipe_id": "VC-03",
+  "input_asset": "../assets/metal_reference.png",
+  "input_selection": "Use the included AI-generated metal product reference for all variants. If replaced, use the same newly approved first frame in every variant and record its hash.",
+  "input_role": "approved_first_frame",
+  "output_kind": "video",
+  "aspect_ratio": "3:4",
+  "planned_duration_seconds": 4,
+  "actual_duration_seconds": null,
+  "planned_partial_rotation_degrees": 15,
+  "actual_rotation_degrees": null,
+  "audio_requested": "silent_if_supported",
+  "audio_actual": null,
+  "preserve": [
+    "geometry",
+    "surface_identity",
+    "background_objects",
+    "studio_light_positions"
+  ],
+  "variants": {
+    "baseline": "../prompts/03_motion_baseline.txt",
+    "turntable": "../prompts/03_motion_turntable.txt",
+    "dolly": "../prompts/03_motion_dolly.txt"
+  },
+  "comparison_type": "multi_instruction_exploration",
+  "follow_up_single_variable": "rotation_amount_or_camera_travel_within_one_variant",
+  "suggested_runs_per_condition_if_no_seed": 3,
+  "actual_runs": 0,
+  "parallax_judgement": "undetermined_without_depth_cues"
+}

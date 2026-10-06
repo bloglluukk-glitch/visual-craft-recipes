@@ -1,0 +1,58 @@
+{
+  "schema_version": "0.1",
+  "recipe_id": null,
+  "status": "not_run",
+  "tool": null,
+  "model": null,
+  "model_version": null,
+  "execution_date": null,
+  "comparison_type": null,
+  "fixed_conditions": [],
+  "changed_variables": [],
+  "input_assets": [],
+  "settings": {
+    "resolution": null,
+    "aspect_ratio": null,
+    "duration_seconds": null,
+    "fps": null,
+    "seed_supported": null,
+    "seed": null,
+    "reference_strength": null,
+    "motion_strength": null,
+    "audio": null
+  },
+  "runs": [],
+  "run_entry_fields": [
+    "condition",
+    "prompt_file",
+    "output_file",
+    "output_sha256",
+    "seed",
+    "postprocessing",
+    "observations",
+    "interpretation",
+    "checks",
+    "sampled_frames",
+    "full_playback_reviewed"
+  ],
+  "allowed_check_outcomes": [
+    "pass",
+    "fail",
+    "undetermined"
+  ],
+  "summary": {
+    "total_runs": 0,
+    "successful_runs": null,
+    "failed_runs": null,
+    "undetermined_runs": null,
+    "observations": [],
+    "interpretations": [],
+    "limitations": []
+  },
+  "asset_rights": {
+    "input_source": null,
+    "input_reuse_permission": null,
+    "output_tool_terms_checked": false
+  },
+  "note": "Empty template. Null values and empty arrays are not observations."
+}

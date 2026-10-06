@@ -1,0 +1,186 @@
+{
+  "version": "0.2.1",
+  "status": "public_release",
+  "date": "2026-10-06",
+  "recipe_count": 3,
+  "illustrative_image_generation_calls": 5,
+  "recipe_comparison_runs": 0,
+  "video_generation_runs": 0,
+  "license_status": "CC-BY-4.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 295,
+      "sha256": "d99c140f172a2a743ff8b05b5fe19192d19955adb1c27d0d59f8e397ee8d07ef"
+    },
+    {
+      "path": "assets/bottle_reference.png",
+      "bytes": 1527293,
+      "sha256": "e145e2ffb97b67e84d4fe36a111248701b69183d5fd5de5a84bf6595257d64f1"
+    },
+    {
+      "path": "assets/GENERATION_RECORD.json",
+      "bytes": 3657,
+      "sha256": "eb454455ee178b17031ab440ac071903af5f5d67b1607fb3eeec89a94911d30c"
+    },
+    {
+      "path": "assets/glass_lighting.png",
+      "bytes": 1249159,
+      "sha256": "ce01d3b00a2a0a95bf2da58c970c5b4b3e2b76d71f5ed616f59bbcd118a0a57c"
+    },
+    {
+      "path": "assets/metal_lighting.png",
+      "bytes": 1408151,
+      "sha256": "cac7aa5b0dab938872f3671b30bead97871cd8c1975c7ec849bbf3689ae18c0a"
+    },
+    {
+      "path": "assets/metal_reference.png",
+      "bytes": 1646008,
+      "sha256": "e2d8b32b07dd48692cf36c316171624d936e658e3d864259b8ee5dc0be96b8fc"
+    },
+    {
+      "path": "assets/motion_plan.png",
+      "bytes": 1454595,
+      "sha256": "5cc8b163a0c31118bad55b6abc2eecd0d8a50e05b54341f388bb2583efccbee3"
+    },
+    {
+      "path": "assets/README.md",
+      "bytes": 2262,
+      "sha256": "19b9661e222ae82c22d9969f4ad44c847406647a78a94d6969342610190bb625"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1213,
+      "sha256": "bb92178be2a3119429088c5ae08465146c2acacaec9638aa63179bae3846676c"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1691,
+      "sha256": "990fcb788d2a0de15996377add204b14a28b42779098f04a48a300bb69de4abd"
+    },
+    {
+      "path": "examples/01_clear_glass.json",
+      "bytes": 1150,
+      "sha256": "a27023172ae805e62481e80af967121f4c2cc24a1b29e006924f039fa9a7e968"
+    },
+    {
+      "path": "examples/02_metal_highlights.json",
+      "bytes": 1072,
+      "sha256": "5885983bb8b2f97dd0140496cb43ae8b2705c3c177d5e122304f2483721d217d"
+    },
+    {
+      "path": "examples/03_product_motion.json",
+      "bytes": 1475,
+      "sha256": "3dc61ea5dfb47fde9c492f21dd60509bde2fc3cde24bb22d6a6cf847aeb0f5a9"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 1860,
+      "sha256": "6ca1333530184783ccb8b08176e1a90d2b985e420986960179a625597b3c114b"
+    },
+    {
+      "path": "prompts/01_glass_baseline.txt",
+      "bytes": 259,
+      "sha256": "437832babf131c204f1845120a680b6668e1d58c506bf9dd8aff770b9941b225"
+    },
+    {
+      "path": "prompts/01_glass_bright.txt",
+      "bytes": 830,
+      "sha256": "20e9673644722791c19f5bdfeb3a393e100c5b4e8bf356017d89a8f64c4667ae"
+    },
+    {
+      "path": "prompts/01_glass_dark.txt",
+      "bytes": 882,
+      "sha256": "276e6650363f7de9368e76918620d552e8eacf99752a5ea46d696fe5be21d986"
+    },
+    {
+      "path": "prompts/02_metal_baseline.txt",
+      "bytes": 280,
+      "sha256": "49d828b4ce38fe390d15c58f7462e08fe8b4d0e51ff85228b4926481ff66a1bd"
+    },
+    {
+      "path": "prompts/02_metal_controlled.txt",
+      "bytes": 884,
+      "sha256": "89f359cccd46407ae17183d1568d246b67c24f097009f4f14777f74bfa81c74a"
+    },
+    {
+      "path": "prompts/03_motion_baseline.txt",
+      "bytes": 326,
+      "sha256": "77d8081a18ee69027d5675ac8d0e1e75a1d9c26174af44528c4e08630220543b"
+    },
+    {
+      "path": "prompts/03_motion_dolly.txt",
+      "bytes": 639,
+      "sha256": "aa43514ea988861e8fa3858c80672c7bfe85a1a2be61021ed8933bfb42bcceb1"
+    },
+    {
+      "path": "prompts/03_motion_turntable.txt",
+      "bytes": 713,
+      "sha256": "58ae071bc5280ef3030ab80ec4eb9dd66370c90f45049796de7309e25aaa1885"
+    },
+    {
+      "path": "prompts/assets/bottle.txt",
+      "bytes": 1166,
+      "sha256": "318b8ef84c9fbf9e821b9f7221f5c8394d05b3e6191773b07878a8093be46951"
+    },
+    {
+      "path": "prompts/assets/glass.txt",
+      "bytes": 1284,
+      "sha256": "a8d0dac4187d621f1da1ba8d25f73b87ec1a39254dfb1186adb931b87a628bab"
+    },
+    {
+      "path": "prompts/assets/metal.txt",
+      "bytes": 1071,
+      "sha256": "a9253ecb4e57ee2b440c05048492a97c7212baf77ea563c2c6a22ec82b385776"
+    },
+    {
+      "path": "prompts/assets/metal_board.txt",
+      "bytes": 1261,
+      "sha256": "fd9be6a67c486e2fc664ed3575b5a861893f9be5400fd5f6f53e541618d1de72"
+    },
+    {
+      "path": "prompts/assets/motion.txt",
+      "bytes": 1472,
+      "sha256": "5cb6de194f8e7236f8ca949dcb836e36d1c1542ed163bf3bf11268a37e0e1d55"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4879,
+      "sha256": "69cb37613c45f3cb3668a7b0ade2bf9b780311a2cd69aec80493dedd7f37fb57"
+    },
+    {
+      "path": "recipes/01_clear_glass.md",
+      "bytes": 4905,
+      "sha256": "0f649581694a125276048919dd667db8c875a61d3dc767da79c66c66a2a7360f"
+    },
+    {
+      "path": "recipes/02_metal_highlights.md",
+      "bytes": 4463,
+      "sha256": "97a948daefacc96917bd7e19500b6b383de06dd500e154f2f0ca72bfd299b561"
+    },
+    {
+      "path": "recipes/03_product_motion.md",
+      "bytes": 5773,
+      "sha256": "17ce4f4e73855070996e48c39a314fec679d041e228371337ea61715d93a5a35"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 3517,
+      "sha256": "6d7a28efeb149e3f94d1f5e440dcc8ce57f040ddd43a396ea78e00cca6454914"
+    },
+    {
+      "path": "templates/experiment_record.json",
+      "bytes": 1304,
+      "sha256": "0d6709960a841b52c339490aa6cdb0bf63ffe1516c3e8ec108d0284f2b466f03"
+    },
+    {
+      "path": "templates/recipe_template.md",
+      "bytes": 776,
+      "sha256": "1b6b88012c238858e351b3457d3509929b227619105deb6c6aac9b6fb8c5a892"
+    }
+  ],
+  "payload_file_count": 34,
+  "total_file_count_including_manifest": 35,
+  "self_hash_excluded": true,
+  "repository_url": "https://github.com/bloglluukk-glitch/visual-craft-recipes"
+}

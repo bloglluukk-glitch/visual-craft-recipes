@@ -1,0 +1,14 @@
+# Experiments can contain private inputs. Select reviewed records explicitly.
+.env
+.env.*
+!.env.example
+experiments/local/
+outputs/local/
+.DS_Store
+Thumbs.db
+# Private project notes, credentials and editor state are never publication inputs.
+PRIVATE_*
+*.pem
+*.key
+.codex/
+.agents/
